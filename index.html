@@ -2,291 +2,238 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Bessemer – Abandoned Cart (External Event)</title>
+  <title>Bessemer — Abandoned Cart (Public View)</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
   <style>
-    /* Basic email-like styling for browser rendering */
+    /* Email-like outer HTML for web preview */
     html, body {margin:0; padding:0; background:#f2f2f2; font-family: Arial, Helvetica, sans-serif; color:#000;}
     img {display:block; border:0; outline:0; max-width:100%; height:auto;}
     a {text-decoration:none; color:#000;}
-    .wrap {width:100%;}
-    .container {width:100%; max-width:620px; margin:0 auto; background:#fff;}
-    .px {padding-left:20px; padding-right:20px;}
-    .py10 {padding-top:10px; padding-bottom:10px;}
+    .container {max-width:620px; margin:0 auto; background:#fff;}
+    .px {padding-left:22px; padding-right:22px;}
+    .py8 {padding-top:8px; padding-bottom:8px;}
+    .py12 {padding-top:12px; padding-bottom:12px;}
     .py16 {padding-top:16px; padding-bottom:16px;}
     .py20 {padding-top:20px; padding-bottom:20px;}
     .py30 {padding-top:30px; padding-bottom:30px;}
     .center {text-align:center;}
-    .btn {display:inline-block; padding:11px 22px; background:#000; color:#fff; font-weight:bold; border-radius:1px;}
-    .footnote {font-size:12px; color:#000;}
-    .rule {height:2px; background:#d5d3d0;}
-    .sp10 {height:10px;}
-    .sp15 {height:15px;}
-    .sp20 {height:20px;}
-    .sp25 {height:25px;}
-    .sp30 {height:30px;}
+    .rule {height:1px; background:#d7d7d7;}
+    .rule2 {height:2px; background:#d5d3d0;}
+    .btn {display:inline-block; background:#000; color:#fff; padding:12px 22px; font-weight:bold; border-radius:2px;}
+    .btn-wide {display:block; width:100%; text-align:center; padding:14px 22px; font-weight:bold; color:#fff; background:#000;}
+    .foot {font-size:12px; color:#000;}
+    .muted {color:#6b6b6b;}
+    .price {font-size:16px;}
+    .title {font-size:14px;}
+    .h1 {font-size:20px; font-weight:bold; line-height:1.35;}
+    .h2 {font-size:18px; font-weight:bold;}
+    .pill {display:inline-block; background:#e5f7e9; color:#0a7334; padding:2px 6px; border-radius:4px; font-size:12px;}
+    /* Placeholder image block */
+    .ph {width:172px; height:172px; background:#cddff6; display:inline-block; border-radius:2px; position:relative;}
+    .ph:after {content:""; position:absolute; left:50%; top:50%; width:42px; height:30px; margin-left:-21px; margin-top:-15px; background:#fff; border-radius:3px;}
     @media (max-width:640px){
       .px {padding-left:14px; padding-right:14px;}
       .stack {display:block; width:100% !important;}
-      .stack td {display:block; width:100% !important;}
+      .stack td, .stack th {display:block; width:100% !important;}
+      .btn {width:100%; text-align:center;}
     }
   </style>
 </head>
 <body>
 
   <!-- VIEW ONLINE -->
-  <div class="wrap">
-    <div class="container">
-      <table role="presentation" width="100%" cellspacing="0" cellpadding="0">
-        <tr>
-          <td class="px py10 center" style="font-size:12px;">
-            <!-- Replace with your GH Pages URL once published -->
-            <a href="#" style="text-decoration:underline; color:#000;">Open in browser</a>
-          </td>
-        </tr>
-      </table>
+  <div class="container">
+    <div class="px py12 center" style="font-size:12px;">
+      <a href="#" style="text-decoration:underline;">Open in browser</a>
     </div>
-  </div>
 
-  <!-- HEADER / NAV / USP -->
-  <div class="wrap">
-    <div class="container">
-      <table role="presentation" width="100%" cellspacing="0" cellpadding="0">
-        <tr>
-          <td class="center py16">
-            <!-- Brand Header (used your nav/header from source; if you have a clean header jpg, put its URL below) -->
-            <!-- <a href="https://bessemer.com.au/"><img src="PUT_HEADER_IMAGE_URL_IF_ANY" alt="BESSEMER" width="300"></a> -->
-          </td>
-        </tr>
-        <tr>
-          <td class="center">
-            <!-- USP bar -->
-            <a href="https://bessemer.com.au/">
-              <img src="https://link.bessemer.com.au/custloads/1024002066/md_445234.jpg" width="600" alt="Free Shipping Sitewide">
-            </a>
-          </td>
-        </tr>
-      </table>
+    <!-- LOGO -->
+    <div class="center py8">
+      <!-- If you have a clean logo URL, place it here -->
+      <img src="https://link.bessemer.com.au/custloads/1024002066/vce/Bessemer_Header.jpg" alt="BESSEMER" style="max-width:300px; margin:0 auto;">
     </div>
-  </div>
 
-  <!-- HERO -->
-  <div class="wrap">
-    <div class="container">
-      <a href="https://bessemer.com.au/">
-        <img src="https://link.bessemer.com.au/custloads/1024002066/md_607729.png" width="620" alt="Bessemer Pan on Benchtop">
-      </a>
+    <!-- TOP NAV -->
+    <div class="center py8" style="font-size:13px; letter-spacing:.02em;">
+      <a href="https://bessemer.com.au/collections/all" class="muted">COOKWARE</a> &nbsp; | &nbsp;
+      <a href="https://bessemer.com.au/pages/recipes" class="muted">RECIPES</a> &nbsp; | &nbsp;
+      <a href="https://bessemer.com.au/collections/sale" class="muted">SALE</a>
     </div>
-  </div>
 
-  <!-- COPY BLOCK -->
-  <div class="wrap">
-    <div class="container px">
-      <div class="sp20"></div>
-      <p style="margin:0 0 12px 0;">Hi Soha,</p>
-      <h1 style="margin:0 0 10px 0; font-size:20px; line-height:1.3; font-weight:bold;">
-        We noticed you left something in your cart.
-      </h1>
+    <!-- USP BAR -->
+    <a href="https://bessemer.com.au/">
+      <img src="https://link.bessemer.com.au/custloads/1024002066/md_445234.jpg" alt="FREE SHIPPING ON ORDERS OVER $130">
+    </a>
+
+    <!-- HERO (with headline baked into image in VCE) -->
+    <img src="https://link.bessemer.com.au/custloads/1024002066/md_531933.jpg" alt="Still thinking about it?">
+
+    <!-- GREETING + COPY -->
+    <div class="px py20 center">
+      <p style="margin:0 0 8px 0;">Hi <span class="pill">Soha</span>,</p>
+      <p style="margin:8px 0 10px 0;">We noticed you left something in your cart.</p>
       <p style="margin:0 0 12px 0;">
         Great meals start with the right cookware. Bessemer brings ease, flavour and joy to the kitchen.
-        Finish your order and make it yours.
       </p>
-      <div class="sp10"></div>
-      <p class="center"><a class="btn" href="https://bessemer.com.au/">RETURN TO CART</a></p>
-      <div class="sp25"></div>
+      <p style="margin:0 0 0 0;">Finish your order and make it yours.</p>
     </div>
-  </div>
 
-  <!-- ABANDONED CART ROW (image | title/price | CTA) -->
-  <div class="wrap">
-    <div class="container px">
-      <!--
-        NOTE: The provided URL was an HTML endpoint:
-          https://recommender.scarabresearch.com/merchants/17ADCDA308096B9B/kzbjfi/1.html?eh={{contact.12565}}&es={{contact.12566}}
-        For an image thumbnail in a static page, the JPG form is usually:
-          .../kzbjfi/1.jpg?eh=...&es=...
-        Tokens {{contact.*}} won’t resolve on GitHub; swap them for static values if you want a live preview image.
-      -->
+    <div class="px"><div class="rule2"></div></div>
+
+    <!-- ABANDONED CART ROW (image | title/price | CTA) -->
+    <div class="px py20">
       <table role="presentation" width="100%" cellspacing="0" cellpadding="0">
         <tr class="stack" style="vertical-align:middle;">
-          <td class="stack" width="138" style="vertical-align:middle;">
-            <a href="#">
-              <img src="https://recommender.scarabresearch.com/merchants/17ADCDA308096B9B/kzbjfi/1.jpg?eh={{contact.12565}}&es={{contact.12566}}" width="138" alt="Cart item">
-            </a>
+          <td class="stack" width="172" style="vertical-align:middle;">
+            <!-- If you have a cart-item image URL, drop it below. Placeholder shown for public view. -->
+            <span class="ph" aria-hidden="true"></span>
           </td>
           <td class="stack" width="20"></td>
           <td class="stack" style="vertical-align:middle; text-align:center;">
-            <div style="font-size:20px; font-weight:bold; line-height:1.2; margin-bottom:8px;">
-              {{ item.title }} <!-- Replace for public preview -->
-            </div>
-            <div style="font-size:16px; margin-bottom:12px;">
-              ${{ item['price'] }}
-              <!-- If showing MSRP:
-              <span style="font-size:12px; color:#c2c2c2;"><del>${{ item['msrp'] }}</del></span>
-              -->
-            </div>
+            <div class="title" style="font-weight:bold; margin-bottom:8px;">Bessemer Pan, 28cm</div>
+            <div class="price"><span class="muted">ESL snippet</span> &nbsp; $129.95</div>
           </td>
-          <td class="stack" width="10"></td>
-          <td class="stack" width="170" style="vertical-align:middle; text-align:right;">
-            <a class="btn" href="{{ item.link }}">SHOP NOW</a>
+          <td class="stack" width="20"></td>
+          <td class="stack" style="vertical-align:middle; text-align:right;">
+            <a class="btn" href="https://bessemer.com.au/cart">SHOP NOW</a>
           </td>
         </tr>
       </table>
-
-      <div class="sp20"></div>
-      <div class="rule"></div>
-      <div class="sp20"></div>
     </div>
-  </div>
 
-  <!-- RECOMMENDED JUST FOR YOU (3-col) -->
-  <div class="wrap">
-    <div class="container px">
-      <h2 class="center" style="font-size:18px; margin:0 0 15px 0; font-weight:bold;">RECOMMENDED JUST FOR YOU</h2>
-      <div class="rule"></div>
-      <div class="sp15"></div>
+    <div class="px"><div class="rule2"></div></div>
 
+    <!-- RETURN TO CART (wide) -->
+    <div class="px py16">
+      <a class="btn-wide" href="https://bessemer.com.au/cart">RETURN TO CART</a>
+    </div>
+
+    <!-- RECOMMENDED JUST FOR YOU -->
+    <div class="px py12 center">
+      <div class="h2">RECOMMENDED JUST FOR YOU</div>
+      <div class="py8"></div>
+      <div class="rule2"></div>
+    </div>
+
+    <!-- 3-COL PRODUCTS (static dummy titles/prices) -->
+    <div class="px py16">
       <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="text-align:center;">
         <tr>
           <td width="33.33%" style="vertical-align:top; padding:0 6px;">
-            <a href="{{ item1.link }}"><img
-              src="https://recommender.scarabresearch.com/merchants/17ADCDA308096B9B/6qdixz/1.jpg?eh={{contact.12565}}&es={{contact.12566}}"
-              width="172" alt="Rec 1"></a>
-            <div class="sp15"></div>
-            <!-- Optional title/price here -->
+            <span class="ph" aria-hidden="true"></span>
+            <div class="py8 title">Bessemer Black Universal Lid 37cm</div>
+            <div class="price">$ 259.99</div>
           </td>
           <td width="33.33%" style="vertical-align:top; padding:0 6px;">
-            <a href="{{ item2.link }}"><img
-              src="https://recommender.scarabresearch.com/merchants/17ADCDA308096B9B/6qdixz/2.jpg?eh={{contact.12565}}&es={{contact.12566}}"
-              width="172" alt="Rec 2"></a>
-            <div class="sp15"></div>
+            <span class="ph" aria-hidden="true"></span>
+            <div class="py8 title">Bessemer Black Roaster 40cm</div>
+            <div class="price">$ 359.99</div>
           </td>
           <td width="33.33%" style="vertical-align:top; padding:0 6px;">
-            <a href="{{ item3.link }}"><img
-              src="https://recommender.scarabresearch.com/merchants/17ADCDA308096B9B/6qdixz/3.jpg?eh={{contact.12565}}&es={{contact.12566}}"
-              width="172" alt="Rec 3"></a>
-            <div class="sp15"></div>
+            <span class="ph" aria-hidden="true"></span>
+            <div class="py8 title">Bessemer Teal Casserole 28cm</div>
+            <div class="price">$ 299.99</div>
           </td>
         </tr>
       </table>
-
-      <div class="sp20"></div>
-      <p class="center"><a class="btn" href="https://bessemer.com.au/">SHOP NOW</a></p>
-      <div class="sp25"></div>
     </div>
-  </div>
 
-  <!-- SHOP BY CATEGORY -->
-  <div class="wrap">
-    <div class="container px">
+    <div class="px"><div class="rule2"></div></div>
+
+    <!-- SHOP BY CATEGORY -->
+    <div class="px py16 center">
+      <div style="display:flex; align-items:center; gap:12px; justify-content:center;">
+        <div class="rule" style="flex:1;"></div>
+        <div class="h2" style="font-weight:bold;">Shop by Category</div>
+        <div class="rule" style="flex:1;"></div>
+      </div>
+      <div class="py12"></div>
+
+      <!-- Buttons grid -->
       <table role="presentation" width="100%" cellspacing="0" cellpadding="0">
         <tr>
-          <td><div class="rule"></div></td>
-        </tr>
-        <tr><td class="sp15"></td></tr>
-        <tr>
-          <td class="center" style="font-size:18px; font-weight:bold;">Shop by Category</td>
-        </tr>
-        <tr><td class="sp15"></td></tr>
-        <tr>
-          <td>
+          <td class="px" style="padding-bottom:12px;">
             <table role="presentation" width="100%" cellspacing="0" cellpadding="0">
               <tr>
-                <td class="stack" width="260" style="vertical-align:top;">
-                  <p class="center"><a class="btn" href="https://bessemer.com.au/collections/fryware">Fryware &gt;</a></p>
-                  <div class="sp20"></div>
-                  <p class="center"><a class="btn" href="https://bessemer.com.au/collections/saucepans">Saucepans &gt;</a></p>
-                  <div class="sp20"></div>
-                  <p class="center"><a class="btn" href="https://bessemer.com.au/collections/roasting">Roasting &gt;</a></p>
+                <td width="50%" style="padding:6px;">
+                  <a class="btn" style="display:block; text-align:center;" href="https://bessemer.com.au/collections/fryware">Fryware &gt;</a>
                 </td>
-                <td width="20"></td>
-                <td class="stack" width="260" style="vertical-align:top;">
-                  <p class="center"><a class="btn" href="https://bessemer.com.au/collections/multi-pans">Multi-Pans &gt;</a></p>
-                  <div class="sp20"></div>
-                  <p class="center"><a class="btn" href="https://bessemer.com.au/collections/casseroles">Casseroles &gt;</a></p>
-                  <div class="sp20"></div>
-                  <p class="center"><a class="btn" href="https://bessemer.com.au/collections/lids">Lids &gt;</a></p>
+                <td width="50%" style="padding:6px;">
+                  <a class="btn" style="display:block; text-align:center;" href="https://bessemer.com.au/collections/multi-pans">Multi-Pans &gt;</a>
+                </td>
+              </tr>
+              <tr>
+                <td width="50%" style="padding:6px;">
+                  <a class="btn" style="display:block; text-align:center;" href="https://bessemer.com.au/collections/saucepans">Saucepans &gt;</a>
+                </td>
+                <td width="50%" style="padding:6px;">
+                  <a class="btn" style="display:block; text-align:center;" href="https://bessemer.com.au/collections/casseroles">Casseroles &gt;</a>
+                </td>
+              </tr>
+              <tr>
+                <td width="50%" style="padding:6px;">
+                  <a class="btn" style="display:block; text-align:center;" href="https://bessemer.com.au/collections/roasting">Roasting &gt;</a>
+                </td>
+                <td width="50%" style="padding:6px;">
+                  <a class="btn" style="display:block; text-align:center;" href="https://bessemer.com.au/collections/lids">Lids &gt;</a>
                 </td>
               </tr>
             </table>
           </td>
         </tr>
-        <tr><td class="sp25"></td></tr>
       </table>
-    </div>
-  </div>
 
-  <!-- INFO TILES -->
-  <div class="wrap">
-    <div class="container">
-      <a href="https://bessemer.com.au/"><img src="https://link.bessemer.com.au/custloads/1024002066/md_295693.jpg" width="620" alt="Bessemer Difference"></a>
-      <div class="sp25"></div>
-      <a href="https://bessemer.com.au/"><img src="https://link.bessemer.com.au/custloads/1024002066/md_295694.jpg" width="620" alt="Cook Now, Pay Later"></a>
-      <div class="sp25"></div>
-      <a href="https://bessemer.com.au/"><img src="https://link.bessemer.com.au/custloads/1024002066/md_295695.jpg" width="620" alt="More than half a century"></a>
-      <div class="sp25"></div>
-      <a href="https://bessemer.com.au/"><img src="https://link.bessemer.com.au/custloads/1024002066/md_295696.jpg" width="620" alt="No PFOA. A healthier choice for your family."></a>
-      <div class="sp25"></div>
+      <div class="py12"></div>
+      <a class="btn-wide" href="https://bessemer.com.au/collections/all">Shop All</a>
     </div>
-  </div>
 
-  <!-- USPs INLINE -->
-  <div class="wrap">
-    <div class="container px">
-      <table role="presentation" width="100%" cellspacing="0" cellpadding="0">
-        <tr>
-          <td class="center" style="font-weight:bold;">FREE SHIPPING ON ORDERS OVER $130</td>
-          <td class="center" style="font-weight:bold;">|</td>
-          <td class="center" style="font-weight:bold;">30 DAYS RETURN</td>
-        </tr>
-      </table>
-      <div class="sp25"></div>
+    <!-- INFO STRIP IMAGES -->
+    <div class="py20">
+      <img src="https://link.bessemer.com.au/custloads/1024002066/md_295693.jpg" alt="The Bessemer Difference">
+      <div style="height:20px;"></div>
+      <img src="https://link.bessemer.com.au/custloads/1024002066/md_295694.jpg" alt="Afterpay — Cook Now Pay Later">
+      <div style="height:20px;"></div>
+      <img src="https://link.bessemer.com.au/custloads/1024002066/md_295696.jpg" alt="PFOA Free • Designed in Australia • Lifetime Guarantee">
     </div>
-  </div>
 
-  <!-- HELP / CONTACT -->
-  <div class="wrap" style="background:#e3e3e3;">
-    <div class="container px">
-      <div class="sp30"></div>
-      <p class="center" style="font-size:18px; font-weight:bold; margin:0 0 10px 0;">Need help or advice?</p>
-      <p class="center" style="margin:0; line-height:1.5;">
-        Live Chat: <a href="https://bessemer.com.au/" style="text-decoration:underline;">bessemer.com.au</a><br>
-        9am–9:30pm AEDT/AEST Mon–Fri &nbsp; • &nbsp; 10am–5:30pm AEDT/AEST Sat–Sun
+    <!-- INLINE USPs -->
+    <div class="px py16 center" style="font-weight:bold;">
+      FREE SHIPPING ON ORDERS OVER $130 &nbsp;&nbsp; | &nbsp;&nbsp; 30 DAYS RETURN
+    </div>
+
+    <!-- HELP / CONTACT -->
+    <div style="background:#e9e9e9;">
+      <div class="px py20 center">
+        <div class="h2" style="margin-bottom:8px;">Need help or advice?</div>
+        <div style="line-height:1.6;">
+          Live Chat : <a href="https://bessemer.com.au/" class="muted" style="text-decoration:underline;">bessemer.com.au</a><br>
+          9am - 9:30pm AEDT / AEST Mon-Fri<br>
+          10am - 5:30pm AEDT / AEST Sat and Sun
+        </div>
+        <div class="py12"></div>
+        <a href="https://bessemer.com.au/pages/contact" style="text-decoration:underline;">Click here to Contact Customer Service</a>
+      </div>
+    </div>
+
+    <!-- SOCIAL + PAY ICON ROW (text links for public view) -->
+    <div class="px py16 center">
+      <p style="margin:0 0 14px 0;">
+        <a href="https://www.facebook.com/bessemercookware" style="margin-right:16px;">Facebook</a>
+        <a href="https://www.instagram.com/bessemercookware">Instagram</a>
       </p>
-      <div class="sp15"></div>
-      <p class="center"><a href="https://bessemer.com.au/pages/contact" style="text-decoration:underline;">Click here to Contact Customer Service</a></p>
-      <div class="sp30"></div>
+      <p class="muted" style="margin:0;">
+        Afterpay • Amex • PayPal • Visa • MasterCard • Apple Pay • Google Pay • Zip
+      </p>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="px py20 center foot">
+      Mailing Address: Bessemer | Po Box 7224 | Melbourne 3004 | Australia<br>
+      This email was sent by Bessemer | Global Retail Brands Australia Pty Ltd
+      <div class="py12"></div>
+      <span class="muted">Public online view — manage preferences in your account.</span>
     </div>
   </div>
-
-  <!-- SOCIALS / PAYMENT (icons optional – add if you have clean URLs) -->
-  <div class="wrap">
-    <div class="container px">
-      <div class="sp30"></div>
-      <p class="center">
-        <a href="https://www.facebook.com/bessemercookware" aria-label="Facebook">Facebook</a>
-        &nbsp;&nbsp;|&nbsp;&nbsp;
-        <a href="https://www.instagram.com/bessemercookware" aria-label="Instagram">Instagram</a>
-      </p>
-      <div class="sp30"></div>
-    </div>
-  </div>
-
-  <!-- FOOTER -->
-  <div class="wrap">
-    <div class="container px">
-      <p class="center footnote" style="margin:0 0 10px 0;">
-        Mailing Address: Bessemer | PO Box 7224 | Melbourne 3004 | Australia<br>
-        This email was sent by Bessemer | Global Retail Brands Australia Pty Ltd
-      </p>
-      <div class="sp10"></div>
-      <p class="center footnote" style="margin:0;">
-        This is a public online view. To manage preferences or unsubscribe, please visit your account on <a href="https://bessemer.com.au/" style="text-decoration:underline;">bessemer.com.au</a>.
-      </p>
-      <div class="sp25"></div>
-    </div>
-  </div>
-
 </body>
 </html>
